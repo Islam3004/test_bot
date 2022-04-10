@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class WordsConfig(AppConfig):
+class ApiConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'words'
+    name = 'backend.apps.api'
